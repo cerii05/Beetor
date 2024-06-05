@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 835px; */
+    /* width: 1440px; */
+    /* background-image: linear-gradient(to bottom right, #f6f6f6, #fdfd96, #f6f6f6); */
+    background-image: url("image/Background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 20px 50px 0 50px;
+
+}
+
+#logo {
+    display: flex;
+    justify-content: left;
+    font-family: "Righteous", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    align-items: end;
+    padding: 0 0 0 10px;
+    height: 60px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding-inline: 10px;
+    font-size: 20px;
+    opacity: 56%;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    font-family: "Poppins", sans-serif;
+    margin: 80px;
+    column-gap: 40px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-profile img{
+    width: 150px;
+}
+
+.user-profile h1{
+    font-size: 80px;
+    color: #FEB300;
+    padding-left: 50px;
+    font-style: BOLD;
+}
+
+.profile-info {
+    display: grid;
+    padding: 20px;
+    margin-left: 30px;
+    row-gap: 30px;
+}
+
+.email-info,.phone-info,.edit-role{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    color: rgb(0, 0, 0, 0.56);
+}
+
+#email-text,#phone-text {
+    font-size: 25px;
+    width: 20%;
+}
+
+#email-box,#phone-box {
+    font-size: 18px;
+    width: 65%;
+    padding: 25px 20px;
+    background-color: rgb(255, 179, 0);
+    border-radius: 10px;
+}
+
+#email-box {
+    text-decoration: underline;
+}
+
+#edit-profile {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.56);
+    padding: 5px 10px;
+    border: 1px solid #ffc94a;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 6.5%;
+}
+
+#edit-profile:hover{
+    background-color: #ffc94a;
+}
+
+#role-assigned {
+    padding: 10px;
+    background-color: #fee48a;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.inspirational-quote{
+    display: grid;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 70%;
+    row-gap: 10px;
+    font-style: italic;
+}
+
+#quote {
+    color: #b0A775;
+}
+
+#quote span{
+    color: #ffc94a;
+}
+
+#bee-profile {
+    position: absolute;
+    width: 250px;
+    top: 80%;
+    left: 35%;
+    opacity: 80%;
+}
+
+.spacer-beetor {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#spacer{
+    height: 1px;
+    background-color: black;
+    width: 70%;
+}
+
+.column-2{
+    display: grid;
+    row-gap: 40px;
+    grid-template-rows: max-content auto;
+}
+
+.schedule-side {
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #135732, #0C8745);
+    opacity: 90%;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.ongoing-class {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    color: white;
+}
+
+#ongoing-text {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.schedule-spacer {
+    height: 1px;
+    width: 100%;
+    justify-self: center;
+    background-color: white;
+}
+
+.ongoing-grid {
+    display: grid;
+    grid-template-columns: 15% 1% auto;
+    /* padding: 0% 10%; */
+    font-size: 18px;
+}
+
+.spacer-vertical {
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+
+.grid-left{
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.grid-right{
+    display: grid;
+    grid-template-columns: auto 45%;
+    grid-template-rows: auto auto;
+    align-items: center;
+    padding: 0% 10%;
+    row-gap: 10px;
+    width: 100%;
+}
+
+.grid-right-left {
+    display: grid;
+    row-gap: 7px;
+    padding: 10px;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+
+#link-2 {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-right-right {
+    width: 100%;
+}
+
+#Attend {
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 5px 15px;
+    color: black;
+    background-color: #FEB300;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.grid-right-bottom {
+    display: flex;
+    grid-column: 1/3;
+    justify-content: center;
+}
+
+#seemore {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+#seemore:hover{
+    background-color: #ffc94a;
+    color: black;
+    font-weight: 500;
+}
+
+.upcoming-schedule {
+    display: grid;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: max-content;
+}
+
+#upcoming-text {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.first-row,.second-row{
+    display: grid;
+    grid-template-columns: 15% 1% auto;
+}
+
+.time,.link {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.upcoming-spacer {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.vertical-spacer {
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+
+.grid-left-1, .grid-right-1{
+    display: grid;
+    grid-template-columns: 60% 45%;
+    padding: 0% 10%;
+    font-size: 18px;
+}
+
+.grid-right-2{
+    display: grid;
+    grid-template-columns: 60% 45%;
+    grid-template-rows: auto auto;
+    padding: 0% 10%;
+    font-size: 18px;
+}
+
+.grid-left-1 {
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.grid-r-l-1{
+    display: grid;
+    /* text-align: center; */
+    padding: 10px;
+    row-gap: 7px;
+}
+
+.grid-r-r-1{
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.class-detail {
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #FEB300;
+    font-size: 15px;
+}
+
+.grid-r-b-2{
+    display: flex;
+    grid-column: 1/3;
+    justify-content: center;
+}
+
+#seemore-2 {
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+#seemore-2:hover{
+    background-color: #ffc94a;
+    color: black;
+    font-weight: 500;
+    border: 1px solid black;
+}

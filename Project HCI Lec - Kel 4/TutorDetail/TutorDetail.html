@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Details</title>
+    <link rel="stylesheet" href="TutorDetail.css">
+    <script src="https://kit.fontawesome.com/4a0f595e83.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="image/Logo.png" alt="Beetor Logo" class="logo">
+    </div>
+    <header>
+        <div id="dropdown-icon">
+            <label for="dropdown" class="fa-solid fa-house" onclick="goToHome()"></label>
+        </div>
+        <div class="help" onclick="showInput()">
+            <img src="image/search-icon-light-grey-hi.png" alt="Search Icon">
+            <label for="help-input" id="help-label">need a help?</label>
+            <input type="text" id="help-input" placeholder="need help?" onblur="hideInput()" onkeypress(enter)="goToSearch()">
+        </div>
+        <div class="profile" onclick="goToProfile()">
+            <img src="image/profile-picture.png" alt="" id="profile-picture-idk">
+            <p >Hey, <b>Natasha</b></p>
+        </div>
+    </header>
+    <div class="page">
+        <div class="viewing">
+            <p>You are viewing <br><b>Michelle Audrey's</b> page</p>
+        </div>
+        <div class="booksession">
+            <a href="/Payment/Payment 1/Payment1.html">Book Session</a>
+        </div>
+        <div class="tutor-profile">
+            <div class="tutor-img">
+                <img src="image/teacher_PNG76.png" alt="" id="tutor-picture">
+            </div>
+            <div class="tutorname">
+                <p>Michelle Audrey</p>
+            </div>
+            <div class="binusian">
+                <p>Binusian 2025</p>
+            </div>
+            <div class="gpa">
+                <p>GPA 4</p>
+            </div>
+        </div>
+        <div class="details">
+            <div class="details1">
+                <p>Saya Michelle, Binusian 2025 dari jurusan Computer Science yang percaya diri dalam mata kuliah: Calculus dan Data Structures. IPK kumulatif saya selama menjalani perkuliahan di Binus University adalah 4.0</p>
+            </div>
+            <div class="details2">
+                <p>Dalam proses mengajar, saya dapat menjelaskan materi dengan cara yang mudah dipahami sehingga kamu dapat mengerti materi yang belum dimengerti secara mudah. Saya selalu siap untuk menjawab pertanyaan-pertanyaan seputar materi tersebut.</p>
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="reviewtext"><b>Review</b></div>
+            <div class="review1">
+                <p>Cara mengajar kak Michelle sangat praktis. Auto ngerti dalam waktu singkat. Thank you kak Michelle!</p>
+                <div class="reviewname1">
+                    <p>Hanni New Jeans <span>&#9733;5</span></p>
+                </div>
+            </div>
+            <div class="review2">
+                <p>Gila, dari ga ngerti langsung JENIUS! Berkat ajaran kak Michelle yang ga perlu diraguin lagi, bakal langganan dah</p>
+                <div class="reviewname2">
+                    <p>Ningning Aespa <span>&#9733;5</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
