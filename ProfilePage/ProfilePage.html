@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeeTor</title>
+    <link rel="stylesheet" href="ProfilePage.css">
+    <script src="https://kit.fontawesome.com/4a0f595e83.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p id="logo">BeeTor</p>
+        <div class="menu">
+            <a href="/MainPage-Logged/Main-Logged.html">Home</a>
+            <a href="/About-Logged/AboutLogged.html">About</a>
+            <a href="#profile">Profile</a>
+            <!-- <a href=""></a> -->
+        </div>
+    </header>
+    <div class="profile">
+        <div class="column-1">
+            <div class="user-profile">
+                <img src="image/profile-picture.png" alt="profile-picture">
+                <h1 id="user-name">Natasha</h1>
+            </div>
+            <div class="profile-info">
+                <div class="email-info">
+                    <div id="email-text">Email</div>
+                    <div id="email-box">natasha.djoisy@binus.ac.id</div>
+                </div>
+                <div class="phone-info">
+                    <div id="phone-text">Phone <br>Number</div>
+                    <div id="phone-box">08123455678425</div>
+                </div>
+                <div class="edit-role">
+                    <a href="#edit" id="edit-profile">Edit Profile</a>
+                    <div id="role-assigned">Role as a <b>Student | Semester 2</b></div>
+                </div>
+            </div>
+            <div class="inspirational-quote">
+                <p id="quote"> <b>“Just because it’s hard doesn’t mean it’s impossible. You can do it, <span>Natasha</span>  ! 💪🏻🤩”</b></p>
+                <div class="spacer-beetor">
+                    <div id="spacer"></div>
+                    <div id="beetor-name">Beetor</div>
+                </div>
+            </div>
+            <div class="profile-bee">
+                <img src="image/lebah profile.png" id="bee-profile" alt="">
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="schedule-side">
+                <div class="ongoing-class">
+                    <h4 id="ongoing-text">Ongoing Class</h4>
+                    <div class="schedule-spacer"></div>
+                    <div class="ongoing-grid">
+                        <div class="grid-left">
+                            <p id="o-day">Mon</p>
+                            <p id="o-date">06</p>
+                        </div>
+                        <div class="spacer-vertical"></div>
+                        <div class="grid-right">
+                            <div class="grid-right-left">
+                                <div class="matkul">Calculus</div>
+                                <div class="time">
+                                    <label class="fa-regular fa-clock"></label>
+                                    <p>09:00 - 12:00</p>
+                                </div>                                <div class="link">
+                                    <label class="fa-solid fa-link"></label>
+                                    <a href="https://zoom.com" id="link">https://zoom.com</a>
+                                </div>
+                            </div>
+                            <div class="grid-right-right">
+                                <a href="/OnGoingSession/OnGoingSession.html" id="Attend">Attend Class</a>
+                            </div>
+                            <div class="grid-right-bottom">
+                                <a href="/TutorDetail/TutorDetail.html" id="seemore">see more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="upcoming-schedule">
+                <h4 id="upcoming-text">Upcoming Class</h4>
+                <div class="upcoming-spacer"></div>
+                <div class="first-row">
+                    <div class="grid-left-1">
+                        <p>Wed<br>08</p>
+                    </div>
+                    <div class="vertical-spacer"></div>
+                    <div class="grid-right-1">
+                        <div class="grid-r-l-1">
+                            <p id="title">Calculus</p>
+                            <div class="time">
+                                <label class="fa-regular fa-clock"></label>
+                                <p>09:00 - 12:00</p>
+                            </div>
+                            <div class="link">
+                                <label class="fa-solid fa-link"></label>
+                                <a href="https://zoom.com" id="link-2">https://zoom.com</a>
+                            </div>
+                        </div>
+                        <div class="grid-r-r-1">
+                            <div class="class-detail">
+                                <p>Online Class</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upcoming-spacer"></div>
+                <div class="second-row">
+                    <div class="grid-left-1">
+                        <p>Fri<br>10</p>
+                    </div>
+                    <div class="vertical-spacer"></div>
+                    <div class="grid-right-2">
+                        <div class="grid-r-l-1">
+                            <p class="title">Data Structure</p>
+                            <div class="time">
+                                <label class="fa-regular fa-clock"></label>
+                                <p>09:00 - 12:00</p>
+                            </div>
+                            <div class="link">
+                                <label class="fa-solid fa-link"></label>
+                                <p>TBA</p>
+                            </div>
+                        </div>
+                        <div class="grid-r-r-1">
+                            <div class="class-detail">
+                                <p>Online Class</p>
+                            </div>
+                        </div>
+                        <div class="grid-r-b-2">
+                            <a href="/TutorDetail/TutorDetail.html" id="seemore-2">see more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+<script src="/script.js"></script>
+</html>
