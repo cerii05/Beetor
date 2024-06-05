@@ -70,6 +70,10 @@ function goToReview(){
     window.location.href = "../Review/Review.html"
 }
 
+function goToNextPage(){
+    window.location.href = "../Payment/Payment 2/Payment2.html"
+}
+
 function goToSearch(event){
     if(event.key === "Enter" || event.keyCode === 13){
         window.location.href = "../SearchTutor/SearchTutor.html";
