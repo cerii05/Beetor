@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function goToHome(){
-    window.location.href = "../MainPage-Logged/Main-Logged.html";
+    window.location.href = "./";
 }
 
 function goToProfile(){
