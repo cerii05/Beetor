@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function goToHome(){
-    window.location.href = "./";
+    window.location.href = "index.html";
 }
 
 function goToProfile(){
