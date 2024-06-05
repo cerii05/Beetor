@@ -47,37 +47,37 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function goToHome(){
-    window.location.href = "index.html";
+    window.location.href = "MainPage-Logged/Main-Logged.html";
 }
 
 function goToProfile(){
-    window.location.href = "../ProfilePage/ProfilePage.html";
+    window.location.href = "ProfilePage/ProfilePage.html";
 }
 
 function goToProfile2(){
-    window.location.href = "../../ProfilePage/ProfilePage.html";
+    window.location.href = "ProfilePage/ProfilePage.html";
 }
 
 function goToNextPage(){
-    window.location.href = "../Payment 2/Payment2.html";
+    window.location.href = "Payment 2/Payment2.html";
 }
 
 function goToTutor(){
-    window.location.href = "../TutorDetail/TutorDetail.html"
+    window.location.href = "TutorDetail/TutorDetail.html"
 }
 
 function goToReview(){
-    window.location.href = "../Review/Review.html"
+    window.location.href = "Review/Review.html"
 }
 
 function goToSearch(event){
     if(event.key === "Enter" || event.keyCode === 13){
-        window.location.href = "../SearchTutor/SearchTutor.html";
+        window.location.href = "SearchTutor/SearchTutor.html";
     }
 }
 
 document.getElementById('search-bar').addEventListener('keydown', goToSearch);
 
 function goToSearch2(){
-    window.location.href = "../SearchTutor/SearchTutor.html";
+    window.location.href = "SearchTutor/SearchTutor.html";
 }
